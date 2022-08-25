@@ -1,521 +1,521 @@
 /*============== RESET ================*/
 
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 
 ul {
-    list-style: none;
-    
+   list-style: none;
+   
 }
 
 img {
-    width: 100%;
-    height: auto;
+   width: 100%;
+   height: auto;
 }
 /*============== BASE ================*/
 
 html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    
-  
-    
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   
+ 
+   
 }
 
 body {
-    font: 400 1.5rem "DM Sans" , sans-serif;
-    color: var(--text-color);
-    background: var(--body-color);
-    -webkit-font-smoothing: antialiased;
-  
-    overflow-x: hidden ;
+   font: 400 1.5rem "DM Sans" , sans-serif;
+   color: var(--text-color);
+   background: var(--body-color);
+   -webkit-font-smoothing: antialiased;
+ 
+   overflow-x: hidden ;
 }
 
 .title {
-    font: 700 1.8rem "Poppins" , sans-serif;
-    color: var(--title-color);
-    -webkit-font-smoothing: auto;
+   font: 700 1.8rem "Poppins" , sans-serif;
+   color: var(--title-color);
+   -webkit-font-smoothing: auto;
 }
 
 .button {
-    background-color: var(--base-color);
-    color: var(--text-color-light);
-    height: 5.6rem;
-    display: inline-flex;
-    align-items: center;
-    padding: 0 3.2rem;
-    border-radius: 4rem;
-    font: 500 1.6rem 'DM Sans' , sans-serif;
-    transition: background 0.3s;
+   background-color: var(--base-color);
+   color: var(--text-color-light);
+   height: 5.6rem;
+   display: inline-flex;
+   align-items: center;
+   padding: 0 3.2rem;
+   border-radius: 4rem;
+   font: 500 1.6rem 'DM Sans' , sans-serif;
+   transition: background 0.3s;
 
 }
 
 .button:hover {
- background: var(--base-color-alt);
+background: var(--base-color-alt);
 
 }
 
 .divider-1 {
-    height: 1px;
-    background: linear-gradient(
-    270deg, 
-    hsla(var(--hue), 36%, 57%, 1) 
-    hsla(var(--hue), 65%, 88%, 0.34) 
-    );
+   height: 1px;
+   background: linear-gradient(
+   270deg, 
+   hsla(var(--hue), 36%, 57%, 1) 
+   hsla(var(--hue), 65%, 88%, 0.34) 
+   );
 }
 
 .divider-2 {
-    height: 1px;
-    background: linear-gradient(
-    270deg, 
-    hsla(var(--hue), 65%, 88%, 0.34), 
-    hsla(var(--hue), 36%, 57%, 1) 
-    );
+   height: 1px;
+   background: linear-gradient(
+   270deg, 
+   hsla(var(--hue), 65%, 88%, 0.34), 
+   hsla(var(--hue), 36%, 57%, 1) 
+   );
 }
 
 /*============== ? ================*/
 :root {
-    overflow-x: hidden;
-    font-size: 57%;
+   overflow-x: hidden;
+   font-size: 57%;
 
-    --header-height: 7.2rem;
-    
+   --header-height: 7.2rem;
+   
 
-  /* colors */
-  --hue: 159;
-  /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 46%);
-  --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
+ /* colors */
+ --hue: 159;
+ /* HSL color mode */
+ --base-color: hsl(var(--hue) 36% 57%);
+ --base-color-second: hsl(var(--hue) 65% 88%);
+ --base-color-alt: hsl(var(--hue) 57% 53%);
+ --title-color: hsl(var(--hue) 41% 10%);
+ --text-color: hsl(0 0% 46%);
+ --text-color-light: hsl(0 0% 98%);
+ --body-color: hsl(0 0% 98%);
 }
 /*============== LAYOUT ================*/
 
 .container {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
+   margin-left: 2.4rem;
+   margin-right: 2.4rem;
 }
 
 
 .grid {
-    display:grid;
-    gap: 2rem;
+   display:grid;
+   gap: 2rem;
 }
 
 .section {
-    padding: 4.5rem 0;
+   padding: 4.5rem 0;
 }
 
 .section .title{
-    margin-bottom: 1.6rem;
+   margin-bottom: 1.6rem;
 }
 
 .section header {
-    margin-bottom: 4.4rem ;
+   margin-bottom: 4.4rem ;
 }
 
 .section header strong {
-    color: var(--base-color);
+   color: var(--base-color);
 }
 
 #header {
-    border-bottom: 1px solid   #E4E4E4;
-    margin-bottom: 3.2rem;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background-color: var(--body-color);
-    width: 100%;
+   border-bottom: 1px solid   #E4E4E4;
+   margin-bottom: 3.2rem;
+   display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   background-color: var(--body-color);
+   width: 100%;
 }
 
 #header.scroll {
-    box-shadow: 0 0 12px  rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 12px  rgba(0, 0, 0, 0.1);
 }
 
 main {
-    margin-top: var(--header-height);
-    
-    
+   margin-top: var(--header-height);
+   
+   
 }
 
 
 /*============== LOGO ================*/
 
 .logo {
-    font: 700 2.1rem 'Poppins' , sans-serif; 
-    color: var(--title-color);
+   font: 700 2.1rem 'Poppins' , sans-serif; 
+   color: var(--title-color);
 
 }
 
 .logo span {
-    color: var(--base-color);
+   color: var(--base-color);
 
 }
 
 /*============== NAVIGATION ================*/
 
 nav {
-    height: var(--header-height) ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+   height: var(--header-height) ;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
 }
 
 nav ul li {
-    text-align: center;
-    margin-top: -14rem ;
-  
+   text-align: center;
+   margin-top: -14rem ;
+ 
 }
 
 nav ul li a {
-    transition: color 0.2s;
-    position: relative;
+   transition: color 0.2s;
+   position: relative;
 }
 
 nav ul li a:hover {
-    color: var(--base-color);
+   color: var(--base-color);
 
 }
 
 nav ul li a::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: var(--base-color);
+   content: "";
+   width: 0%;
+   height: 2px;
+   background: var(--base-color);
 
-    position: absolute;
-    left: 0;
-    bottom: -1.5rem;
+   position: absolute;
+   left: 0;
+   bottom: -1.5rem;
 
-    transition: width .2s ;
+   transition: width .2s ;
 }
 
 nav ul li a:hover::after {
-    width: 100%;
+   width: 100%;
 
 }
 
 nav .menu {
-    opacity: 0;
-    visibility: hidden;
+   opacity: 0;
+   visibility: hidden;
 }
 
 /*============== MOSTRAR MENU ================*/
 nav.show .menu {
-    opacity: 1;
-    visibility: visible;
-    background: var(--body-color);
+   opacity: 1;
+   visibility: visible;
+   background: var(--body-color);
 
-    height: 100vh;
-    width: 100vw;
-    
-    
-    position: fixed;
-    top: 0;
-    left: 0;
+   height: 100vh;
+   width: 100vw;
+   
+   
+   position: fixed;
+   top: 0;
+   left: 0;
 }
 
 nav.show .menu {
-    display: grid;
-    place-content: center;
-    
-    
-    
+   display: grid;
+   place-content: center;
+   
+   
+   
 }
 
 nav.show ul.grid {
-    gap: 7rem;
-    margin-top: 6rem;
-    
-    
+   gap: 7rem;
+   margin-top: 6rem;
+   
+   
 }
 
 /*============== TOGGLE MENU ================*/
 .toggle {
-    color: var(--base-color);
-    font-size: 1.4rem;
-    
-    cursor: pointer;
+   color: var(--base-color);
+   font-size: 1.4rem;
    
+   cursor: pointer;
+  
 }
 
 nav .icon-close {
-    visibility: hidden;
-    opacity: 0;
+   visibility: hidden;
+   opacity: 0;
 
-    position: absolute;
-    right: 2.21rem;
-    top: 3.8rem;
-    transition: 0.2s;
-   
+   position: absolute;
+   right: 2.21rem;
+   top: 3.8rem;
+   transition: 0.2s;
+  
 }
 
 nav.show div.icon-close {
-    visibility: visible;
-    opacity: 1;
-    top: 2.8rem;
+   visibility: visible;
+   opacity: 1;
+   top: 2.8rem;
 }
 
 /*============== HOME ================*/
 
 #home {
-    overflow: hidden;
-    
+   overflow: hidden;
+   
 }
 #home .container {
-    margin: 0;
-    
+   margin: 0;
+   
 }
 
 #home .image {
-    position: relative;
+   position: relative;
 }
 
 #home .image::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -16.8%;
-    left: 16.7%;
-    z-index: 0;
+   content: '';
+   height: 100%;
+   width: 100%;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -16.8%;
+   left: 16.7%;
+   z-index: 0;
 }
 
 #home .image img,
 #home .image::before {
-    border-radius: 0.4rem;
+   border-radius: 0.4rem;
 }
 
 #home .image img {
-    position: relative;
-    right: 2rem;
+   position: relative;
+   right: 2rem;
 }
 
 #home .text {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-    text-align: center;
-    
+   margin-left: 2.4rem;
+   margin-right: 2.4rem;
+   text-align: center;
+   
 }
 
 #home .text h1 {
-    margin-bottom: 1.6rem;
+   margin-bottom: 1.6rem;
 }
 
 #home .text p {
-    margin-bottom: 3.2rem;
-    max-width: 100%;
+   margin-bottom: 3.2rem;
+   max-width: 100%;
 }
 
 /*============== ABOUT================*/
 #about {
-    background: white;
+   background: white;
 }
 
 #about .container {
-    margin: 0;
-    
+   margin: 0;
+   
 }
 
 #about .image {
-    position: relative;
+   position: relative;
 }
 
 #about .image::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -8.3%;
-    left: -33%;
-    z-index: 0;
+   content: '';
+   height: 100%;
+   width: 100%;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -8.3%;
+   left: -33%;
+   z-index: 0;
 }
 
 
 #about .image img,
 #about .image::before {
-    border-radius: 0.4rem;
+   border-radius: 0.4rem;
 }
 
 #about .image img {
-    position: relative;
-   
+   position: relative;
+  
 }
 
 #about .text {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-    
+   margin-left: 2.4rem;
+   margin-right: 2.4rem;
+   
 }
 
 /*============== SERVICES================*/
 
 #services .handle p {
-    text-align: center;
+   text-align: center;
 }
 
 .cards.grid {
-    gap: 2.4rem;
+   gap: 2.4rem;
 }
 
 .card {
-    padding: 5.8rem 3.2rem;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08) ;
-    border-bottom: 0.25rem solid var(--base-color);
-    border-radius: 00.25rem 0.25rem 0 0;
-    text-align: center;
+   padding: 5.8rem 3.2rem;
+   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08) ;
+   border-bottom: 0.25rem solid var(--base-color);
+   border-radius: 00.25rem 0.25rem 0 0;
+   text-align: center;
 }
 
 .card i {
-    display: block;
-    margin-bottom: 3.5rem;
-    font-size: 5rem;
-    color: var(--base-color);
+   display: block;
+   margin-bottom: 3.5rem;
+   font-size: 5rem;
+   color: var(--base-color);
 }
 
 .card .title {
-    font-size: 2.4rem;
-    margin-bottom: 1.2rem;
+   font-size: 2.4rem;
+   margin-bottom: 1.2rem;
 }
 
 /*========================= TESTIMONIALS ====================================================*/
 
 #testimonials h2 {
-    text-align: center;
+   text-align: center;
 }
 
 #testimonials {
-    background: white;
+   background: white;
 }
 
 #testimonials blockquote {
-    padding: 3.2rem;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
-    border-radius: 0.25rem;
+   padding: 3.2rem;
+   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.09);
+   border-radius: 0.25rem;
 }
 
 #testimonials blockquote p {
-    position: relative;
-    text-indent: 1.875rem;
+   position: relative;
+   text-indent: 1.875rem;
 }
 
 #testimonials blockquote p span {
-    font: 700 3rem serif;
-    
-    position: absolute;
-    
-    top: -.5rem;
-    left: -1.875rem;
-    color: var(--base-color);
-    
-}
-
-#testimonials cite p {
-    margin-top: -1.8rem;
-    margin-left: 0.4rem;
+   font: 700 3rem serif;
+   
+   position: absolute;
+   
+   top: -.5rem;
+   left: -1.875rem;
+   color: var(--base-color);
    
 }
 
+#testimonials cite p {
+   margin-top: -1.8rem;
+   margin-left: 0.4rem;
+  
+}
+
 #testimonials img {
-    width: 2rem;
-    height: 2rem;
-    object-fit: cover;
-    border-radius: 1rem;
+   width: 2rem;
+   height: 2rem;
+   object-fit: cover;
+   border-radius: 1rem;
 }
 
 /*============== CONTACT ================*/
 #contact {
-  display: block;
-    
+ display: block;
+   
 }
 
 #contact grid{
-    gap: 5rem;
+   gap: 5rem;
 }
 
 #contact header h2 {
-    font: 700 2rem "Poppins" , sans-serif;
+   font: 700 2rem "Poppins" , sans-serif;
 }
 
 
 #contact .handle-phone   {
-    margin-top: 4rem;
+   margin-top: 4rem;
 }
 
 #contact svg {
+
+margin-top: 0rem;
+ margin-bottom: 0;
  
- margin-top: 0rem;
-  margin-bottom: 0;
-  
-  
+ 
 }
 
 #contact .button:hover {
-    background: var(--base-color-alt);
-    
+   background: var(--base-color-alt);
+   
 }
 
 
 #contact i {
-    display: block;
-    font-size: 2.4rem;
-    color: var(--base-color);
+   display: block;
+   font-size: 2.4rem;
+   color: var(--base-color);
 }
 
 #contact img {
-    width: 90%;
-    height: 50%;
+   width: 90%;
+   height: 50%;
 }
 
 /*============== FOOTER ================*/
 footer {
-    background-color: var(--base-color);
-    
-    
+   background-color: var(--base-color);
+   
+   
 }
 
 
 footer .social {
-    margin-right: 4rem;
+   margin-right: 4rem;
 }
 
 footer .card {
-    background-color: var(--base-color);
-  
+   background-color: var(--base-color);
+ 
 }
 
 footer ul li {
-    font: 400 1.6rem 'DM Sans' , sans-serif;
-    color: var(--text-color-light);
+   font: 400 1.6rem 'DM Sans' , sans-serif;
+   color: var(--text-color-light);
 }
 
 
 
 footer i {
-    color: var(--text-color-light);
-    font-size: 2rem;
-    display:inline-block;
-    width: 4.2rem;
+   color: var(--text-color-light);
+   font-size: 2rem;
+   display:inline-block;
+   width: 4.2rem;
+  
+  
    
    
-    
-    
 
 } 
 
@@ -526,174 +526,174 @@ footer i {
 
 /*============== NAVIGATION================*/
 @media (min-width:1024px){
-    
+   
 header#header .container * {
-    margin: 0;
-    padding: 0;
-    visibility: initial;
-    display: initial;
-    opacity: initial;
-    flex-direction: initial;
-    position: initial;
-    font-size: initial;
-    font-weight: initial;
-    transform: initial;
-    color: initial;
-    background-color: initial;
-    filter: initial;
+   margin: 0;
+   padding: 0;
+   visibility: initial;
+   display: initial;
+   opacity: initial;
+   flex-direction: initial;
+   position: initial;
+   font-size: initial;
+   font-weight: initial;
+   transform: initial;
+   color: initial;
+   background-color: initial;
+   filter: initial;
 }
-    
+   
 #header nav.container {
-    margin-left: 55rem;
+   margin-left: 55rem;
 }
 
 div.toggle.icon-menu::before {
- 
-   display: none;
-    
+
+  display: none;
+   
 }
 
 div.toggle.icon-close::before{
 
-  display: none;
+ display: none;
 }
 
 #header a.logo {
-   font: 700 2.1rem 'Poppins' , sans-serif; 
-   color: var(--title-color);
-   margin-left: -50rem;
+  font: 700 2.1rem 'Poppins' , sans-serif; 
+  color: var(--title-color);
+  margin-left: -50rem;
 }   
 
 #header a.logo span {
-    color: var(--base-color);
+   color: var(--base-color);
 
 }
-      
+     
 #header ul.grid li a {
-   display:inline-block;
-    margin-right: 2rem;
-    color: var(--base-color);
-    font-size: 1.8rem;
-    
+  display:inline-block;
+   margin-right: 2rem;
+   color: var(--base-color);
+   font-size: 1.8rem;
+   
+  
+}
+ 
+#header ul.grid li a:hover {
+   background-color: black;
+   border-radius: 0.5rem;
    
 }
-  
-#header ul.grid li a:hover {
-    background-color: black;
-    border-radius: 0.5rem;
-    
-}
-  
+ 
 #header a.title::after {
-    display: none;
-  }
+   display: none;
+ }
 
 /*============== HOME================*/  
 
 .col-a {
-    grid-area: A;
-    
-  }
+   grid-area: A;
+   
+ }
 
 .col-b {
-    grid-area: B;
-    width: 35rem;
-    
+   grid-area: B;
+   width: 35rem;
+   
 }
 
 #home .container-grid {
 grid-template-areas:
-    'A B'
-    'C C';
-  }
+   'A B'
+   'C C';
+ }
 
 #home div.col-a {
-    grid-area: A;
-    margin-top: -32rem;
+   grid-area: A;
+   margin-top: -32rem;
 }
 
 #home div.image::before {
-    content: '';
-    height: 90%;
-    width: 90rem;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -15%;
-    left: -52rem;
-    z-index: 0;
-  
+   content: '';
+   height: 90%;
+   width: 90rem;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -15%;
+   left: -52rem;
+   z-index: 0;
+ 
 }
 #home div.image {
-    width: 50%;
+   width: 50%;
 }
 
 #home h2.title {
-    margin-top: 10rem;
-    margin-left: 34rem;
-    font: 700 2rem "Poppins" , sans-serif;
+   margin-top: 10rem;
+   margin-left: 34rem;
+   font: 700 2rem "Poppins" , sans-serif;
 }
 
 #home p {
-    text-align: center;
-    margin-left: 34rem;
+   text-align: center;
+   margin-left: 34rem;
 }
 
 #home a.button {
-    margin-left: 25rem;
-    cursor: pointer;
+   margin-left: 25rem;
+   cursor: pointer;
 }
 
 .divider-1 {
-    height: 1px;
-    background: linear-gradient(
-    270deg, 
-    hsla(var(--hue), 36%, 57%, 1) 
-    hsla(var(--hue), 65%, 88%, 0.34) 
-    );
+   height: 1px;
+   background: linear-gradient(
+   270deg, 
+   hsla(var(--hue), 36%, 57%, 1) 
+   hsla(var(--hue), 65%, 88%, 0.34) 
+   );
 }
 
 /*==============ABOUT================*/ 
 
 #about div.col-a {
-    width: 45rem;
+   width: 45rem;
 }
 
 #about div.image::before {
-    content: '';
-    height: 95%;
-    width: 23rem;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -40%;
-    left: 0;
-    z-index: 0;
-    margin-top: -33rem;
-    border-radius: 0.1;
-  
+   content: '';
+   height: 95%;
+   width: 23rem;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -40%;
+   left: 0;
+   z-index: 0;
+   margin-top: -33rem;
+   border-radius: 0.1;
+ 
 }
 
 #about img {
-    margin-top: -42.8rem;
+   margin-top: -42.8rem;
 }
 
 
 /*==============SERVICES================*/ 
 
 #services div.card {
-    width: 90%;
+   width: 90%;
+ 
   
    
-    
 }
 
 
 /*==============TESTIMONIALS================*/
 #testimonials blockquote {
-    width: 90%;
+   width: 90%;
 } 
 
 #testimonials h2.title {
-    margin-left: -10rem;
+   margin-left: -10rem;
 }
 
 
@@ -701,73 +701,73 @@ grid-template-areas:
 /*==============CONTACT================*/   
 
 #contact img {
-   width: 35rem;
-   height: 35rem;
-   margin-left: 60rem;
-   margin-top: -37rem;
+  width: 35rem;
+  height: 35rem;
+  margin-left: 60rem;
+  margin-top: -37rem;
 }
 
 
 }
 
 @media (min-width:1200px) {
-    
+   
 #header nav.container {
- margin-left: 65rem;
+margin-left: 65rem;
 }
 
 #header a.logo {
-    font: 700 2.1rem 'Poppins' , sans-serif; 
-    color: var(--title-color);
-    margin-left: -57rem;
- }   
+   font: 700 2.1rem 'Poppins' , sans-serif; 
+   color: var(--title-color);
+   margin-left: -57rem;
+}   
 /*=============HOME=================*/
 
 #home div.image::before {
-    content: '';
-    height: 90%;
-    width: 85%;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -15%;
-    left: -15rem;
-    z-index: 0;
-  
+   content: '';
+   height: 90%;
+   width: 85%;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -15%;
+   left: -15rem;
+   z-index: 0;
+ 
 }
-  
+ 
 /*=============ABOUT=================*/
 #about img {
-    margin-left: 15rem;
+   margin-left: 15rem;
 }
 
 #about div.image::before {
-    content: '';
-    height: 95%;
-    width: 23rem;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -40%;
-    left: 0;
-    z-index: 0;
-    margin-top: -33rem;
-    margin-left: 15rem ;
-    border-radius: 0.1;
-  
+   content: '';
+   height: 95%;
+   width: 23rem;
+   background: var(--base-color-second);
+   position: absolute;
+   top: -40%;
+   left: 0;
+   z-index: 0;
+   margin-top: -33rem;
+   margin-left: 15rem ;
+   border-radius: 0.1;
+ 
 }
 
 /*=============CONTACT=================*/
 #contact img {
-    width: 35rem;
-    height: 35rem;
-    margin-left: 75rem;
-    margin-top: -49rem;
- }
+   width: 35rem;
+   height: 35rem;
+   margin-left: 75rem;
+   margin-top: -49rem;
+}
 
 /*=============TESTIMONIALS=================*/
 
 
 #testimonials h2.title {
-    margin-left: -10rem;
+   margin-left: -10rem;
 }
 
 
